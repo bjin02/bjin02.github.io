@@ -1,0 +1,95 @@
+@media only screen and (min-width: 1000px) {
+  .top-nav ul {
+    text-align: center;
+    float: right;
+    vertical-align: middle;
+    line-height: 80px;
+    border: 0px;
+  }
+  .top-nav ul li, .menu-icon {
+  vertical-align: middle;
+  }
+
+  .top-nav ul li, .menu-icon{
+  	border-top: none;
+  }
+
+  .top-nav ul li a, .top-nav ul li {
+  display: inline-block;
+
+  }
+
+  .main-content-home{
+  	/* margin-top: 80px; */
+  }
+
+  .logo {
+    float: left;
+    display: inline-block;
+    height: auto;
+    padding: .35em 0.75em;
+    /* height: relative; */
+  }
+
+  .logo img {
+    height: 5em;
+  }
+header {
+    height: 100px;
+  }
+
+}
+
+@media only screen and (min-width: 650px) {
+
+  .top-nav {
+    text-align: center;
+    display: block;
+    width: auto;
+  }
+
+  .top-nav ul {
+  border-top: 1px solid red;
+  display: inline-block;
+  }
+
+  .top-nav ul li, .menu-icon {
+    /* width: auto; */
+}
+
+.top-nav ul li, .menu-icon{
+	border-top: none;
+}
+
+  .top-nav ul li a, .top-nav ul li {
+   display: inline-block;
+   line-height: 120%;
+  }
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.item1,.item2 {
+  grid-column-start:1;
+  grid-column-end: 3;
+}
+
+.home-flag {
+  margin-top: -170px;
+}
+
+.crafts {
+  margin-top: -160px;
+}
+
+footer {
+    height: 40px;
+    /* display: inline-block;
+    text-align: center; */
+}
+footer p {
+  margin: auto;
+}
+}
