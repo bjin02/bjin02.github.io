@@ -54,13 +54,7 @@ a.nav-link1:hover, a.nav-link2:hover, a.nav-link3:hover, a.nav-link4:hover {
   color: #1BAB87;
 }
 
-.nav-link1:active, .nav-link2:active, .nav-link4:active {
-  color:red;
-}
 
-.nav-link1:focus, .nav-link2:focus, .nav-link4:focus {
-  color:red;
-}
 /* .bg-dark {
   background-color: none;
 } */
