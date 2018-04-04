@@ -67,13 +67,13 @@
 <br>
 <p>I had a four-year background at the business school of Bellarmine University. I have studied advertising and branding strategy.</p>
 <br>
-<span class='email'>Contact me: beijin [at] umich.edu</span>
-<div class="contact hide">
+<p>Contact me: beijin [at] umich.edu</p>
 <ul>
-  <li><img scr="img/in.png" alt="linkedin"></li>
-  <li><img scr="img/Be.png" alt="behance"></li>
-  <li><img scr="img/insta.png" alt="instagram"></li>
-</ul></div>
+  <li><a href="https://www.linkedin.com/in/beijin/"><img src="img/in.png" class="social" alt="linkedin" width=40 height=40></a></li>
+  <li><a href="https://www.behance.net/beimax02146fab"><img src="img/Be.png" class="social" alt="behance" width=40 height=40></a></li>
+  <li><a href="https://www.instagram.com/vinbeige/"><img src="img/insta.png" class="social" alt="instagram" width=40 height=40></a></li>
+</ul>
+</div>
 </div>
 </div>
 </div></section>
@@ -98,11 +98,15 @@
   <!-- /.container -->
 </footer>
 <!-- Custom scripts for this template -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-$(document).ready(() => {
-  $('.contact').on('mouseleave', () => {
-    $('contact').hide();
-  })
+$(document).ready(function(){
+    $("p").mouseover(function(){
+        $("ul").show();
+    });
+    $("ul").mouseout(function(){
+        $("ul").hide();
+    });
 });
 </script>
 
