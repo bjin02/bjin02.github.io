@@ -4,17 +4,19 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
   <link rel="shortcut icon" href="img/favicon.png" />
   <title>Bei's Portfolio</title>
 
-  <!-- Bootstrap core CSS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
+  <!-- Bootstrap core -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://code.jquery.com/jquery-3.3.1.slim.js" rel="stylesheet">
+  <!-- Plugin CSS -->
+<link href="magnific-popup/magnific-popup.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- Custom styles for this template -->
+  <link href="css/creative.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/Bootstrap.css">
   <!-- <font> -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -23,24 +25,25 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a href="index.html"><img class="logo" alt="logo" src="img/logo.png"></a>
-        <!-- <span class="navbar-toggler-icon"></span> -->
+      <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/logo.png" class="logo" alt="logo"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link1" href="index.html">HOME
-            </a>
+          <li class="nav-item active">
+            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link2" href="about.html">ABOUT</a>
+            <a class="nav-link js-scroll-trigger" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link3" href="Resume_Beijin.pdf">RESUME</a>
+            <a class="nav-link js-scroll-trigger" href="Resume_Beijin.pdf">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link4" href="graphic.html">GRAPHIC DESIGN</a>
+            <a class="nav-link js-scroll-trigger" href="graphic.html">Graphic Design</a>
           </li>
         </ul>
       </div>
@@ -48,67 +51,56 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
+  <div class="container" id="portfolio">
     <!-- Project One -->
     <div class="row">
       <div class="col-md-5">
         <a href="wcbn.html">
-          <img class="img-fluid rounded" src="img/wcbn1.png" alt="">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="img/wcbn1.png" alt="">
         </a>
       </div>
       <div class="col-md-5">
-        <h3>WCBN - UX Design Project</h3><br>
-        <h4>WCBN Radio Website is a local radio website in Ann Arbor</h4> <br>
+        <h3>WCBN - UX Design Project</h3>
+        <h4>WCBN Radio Website is a local radio website in Ann Arbor</h4>
         <p>Responsive Design | Interaction | Information Architecture | Visual Design </p>
-        <br>
-        <a class="view mb-3 mb-md-0" href="wcbn.html">View Project</a>
+        <a class="view" href="wcbn.html">View Project</a>
       </div>
     </div>
-    <!-- /.row -->
-
-  <br><br><br>
 
     <!-- Project Two -->
     <div class="row">
       <div class="col-md-5">
-        <a href="#">
+        <a href="airbnb.html">
           <img class="img-fluid rounded mb-3 mb-md-0" src="img/airbnb.png" alt="">
         </a>
       </div>
       <div class="col-md-5">
         <h3>Airbnb Experience Page Redesign</h3>
-        <br>
-        <h4>Airbnb experience page redesign</h4><br>
+        <h4>Airbnb experience page redesign</h4>
         <p>User Research | Interaction | Prototype | User Flow </p>
-        <br>
         <a class="view" href="airbnb.html">View Project</a>
       </div>
     </div>
     <!-- /.row -->
 
-  <br><br><br>
 
     <!-- Project Three -->
     <div class="row">
       <div class="col-md-5">
-        <a href="#">
+        <a href="its.html">
           <img class="img-fluid rounded mb-3 mb-md-0" src="img/501.png" alt="">
         </a>
       </div>
       <div class="col-md-5">
         <h3>ITS Consulting Project</h3>
-        <br>
         <h4>ITS Project - Data Virtualization </h4>
-        <br>
         <p>User Research | Contextual Inquiry| Consulting | Qualitative Research </p>
-
         <a class="view" href="its.html">View Project</a>
       </div>
     </div>
     <!-- /.row -->
   </div>
 
-  <br><br><br>
 
     <!-- Project Four -->
     <!-- <div class="row">
@@ -123,49 +115,29 @@
         <a class="view" href="#">View Project</a>
       </div>
     </div> -->
-    <!-- /.row -->
 
-    <!-- <hr> -->
 
-    <!-- Pagination -->
-    <!-- <ul class="pagination justify-content-center">
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-          <span class="sr-only">Previous</span>
-        </a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#">1</a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#">2</a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#">3</a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-          <span class="sr-only">Next</span>
-        </a>
-      </li>
-    </ul>
-  </div> -->
   <!-- /.container -->
 <!-- Footer -->
 <footer>
 <div class="footer">
   <div class="social-icon-container">
-<a href="www.linkedin.com/in/beijin/"><img class="social-icon" src="img/in.png" alt="linkedin Logo" width=20 height=20></a>
-<a href="https://www.behance.net/beimax02146fab"><img class="social-icon" src="img/Be.png" alt="behance Logo" width=20 height=20></a>
-<a href="https://www.instagram.com/vinbeige/"><img class="social-icon" src="img/insta.png" alt="instagram Logo" width=20 height=20></a>
-</div>
-  <div class="container">
+<a href="www.linkedin.com/in/beijin/"><img class="social-icon" src="img/in.png" alt="linkedin Logo" width=40 height=40></a>
+<a href="https://www.behance.net/beimax02146fab"><img class="social-icon" src="img/Be.png" alt="behance Logo" width=40 height=40></a>
+<a href="https://www.instagram.com/vinbeige/"><img class="social-icon" src="img/insta.png" alt="instagram Logo" width=40 height=40></a>
+<!-- </div>
+  <div class="container"> -->
     <p class="m-0 text-center">Copyright &copy; Bei Jin 2018</p>
   </div>
 </div>
   <!-- /.container -->
 </footer>
+<!-- Custom scripts for this template -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="jquery/jquery.js"></script>
+ <script src="jquery/jquery.min.js"></script>
+ <script src="js/creative.js"></script>
 </body>
 </html>
