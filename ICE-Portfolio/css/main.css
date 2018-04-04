@@ -39,13 +39,23 @@
 
 /* body */
 
-
+div#para1.col-md-5, div#para2.col-md-5, div#para3.col-md-5 {
+  padding-top: 30px;
+  padding-left: 20px;
+}
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #425550;
   font-size: 1.5rem;
   font-weight: bold;
+
+  /* opacity: 0;
+  font-size: 21px;
+  margin-top: 25px; */
+  /* text-align: center; */
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 h4{
@@ -54,6 +64,13 @@ h4{
   font-size: 1rem;
   color: #425550;
   padding-top: 10px;
+
+  /* opacity: 0;
+  font-size: 21px;
+  margin-top: 25px; */
+  /* text-align: center; */
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 p {
@@ -61,11 +78,34 @@ p {
    /* margin-bottom: 1rem; */
    color: #90A09B;
    font-family: 'Open Sans', sans-serif;
+
+   /* opacity: 0;
+   font-size: 21px;
+   margin-top: 25px;
+   text-align: center; */
+   animation-duration: 3s;
+   animation-name: slidein;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 
 .row {
   padding-top: 60px;
+  vertical-align: baseline;
+  display: relative;
 }
+
 
 .view {
   display: inline-block;
@@ -73,6 +113,13 @@ p {
   vertical-align: middle;
   color: #1BAB87;
   background-color:none;
+
+  /* opacity: 0;
+  font-size: 21px;
+  margin-top: 25px;
+  text-align: center; */
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .view:hover {
@@ -116,13 +163,33 @@ a.social-icon {
   padding:20px;
 
 }
+
+
 /* About */
 
 .main-section {
   margin-top: 60px;
 }
 
+.ml4 {
+  color: black;
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5em;
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 100;
+}
 
+.me {
+  width: 90%;
+  height: 30%;
+}
 /* min-width:992px */
 
 @media (min-width: 992px) {
@@ -190,6 +257,35 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+
+#motion1{
+    vertical-align: middle;
+    border-style: none;
+    opacity: 0;
+    font-size: 21px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#motion2{
+    vertical-align: middle;
+    border-style: none;
+    opacity: 0;
+    font-size: 21px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#motion3{
+    vertical-align: middle;
+    border-style: none;
+    opacity: 0;
+    font-size: 21px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
 *, ::after, ::before {
   box-sizing: border-box;
 }
