@@ -38,10 +38,45 @@
 
 
 /* body */
+#motion1{
+    vertical-align: middle;
+    border-style: none;
+    opacity: 0;
+    font-size: 21px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#motion2{
+    vertical-align: middle;
+    border-style: none;
+    opacity: 0;
+    font-size: 21px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#motion3{
+    vertical-align: middle;
+    border-style: none;
+    opacity: 0;
+    font-size: 21px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#motion1:hover, #motion2:hover, #motion3:hover {
+  -webkit-box-shadow: 12px 12px 18px rgb(175, 187, 179);
+  -moz-box-shadow: 12px 12px 18px rgb(175, 187, 179);
+  box-shadow: 12px 12px 18px rgb(175, 187, 179);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
 
 div#para1.col-md-5, div#para2.col-md-5, div#para3.col-md-5 {
   padding-top: 30px;
-  padding-left: 20px;
+  padding-left: 60px;
 }
 
 h3 {
@@ -171,25 +206,45 @@ a.social-icon {
   margin-top: 60px;
 }
 
-.ml4 {
-  color: black;
-  position: relative;
-  font-weight: 900;
-  font-size: 4.5em;
-}
-.ml4 .letters {
-  position: absolute;
-  margin: auto;
-  left: 0;
-  top: 0.3em;
-  right: 0;
-  opacity: 100;
+.full-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
+iframe:hover, iframe:focus, iframe:active
+{
+  -webkit-box-shadow: 12px 12px 18px #AFBBB3;
+  -moz-box-shadow: 12px 12px 18px #AFBBB3;
+  box-shadow: 12px 12px 18px #AFBBB3;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+iframe
+{
+  -webkit-transition:all 0.6s ease;
+  -moz-transition:all 0.6s ease;
+  -o-transition:all 0.6s ease;
+  transition:all 0.6s ease;
+  -moz-box-shadow: 2px 2px 4px 0px rgb(0, 103, 115);
+  -webkit-box-shadow:  2px 2px 4px 0px rgb(0, 103, 115);
+  box-shadow: 2px 2px 4px 0px rgb(0, 103, 115);
+  -moz-border-radius:3px 3px 3px 10px ;
+  -webkit-border-radius:10px 10px 10px 10px ;
+  border-radius:10px 10px 10px 10px;
+}
 .me {
   width: 90%;
   height: 30%;
 }
+
+.hide {
+  display: none;
+}
+
+
 /* min-width:992px */
 
 @media (min-width: 992px) {
@@ -257,34 +312,6 @@ img {
   vertical-align: middle;
   border-style: none;
 }
-
-#motion1{
-    vertical-align: middle;
-    border-style: none;
-    opacity: 0;
-    font-size: 21px;
-    margin-top: 25px;
-    text-align: center;
-}
-
-#motion2{
-    vertical-align: middle;
-    border-style: none;
-    opacity: 0;
-    font-size: 21px;
-    margin-top: 25px;
-    text-align: center;
-}
-
-#motion3{
-    vertical-align: middle;
-    border-style: none;
-    opacity: 0;
-    font-size: 21px;
-    margin-top: 25px;
-    text-align: center;
-}
-
 
 *, ::after, ::before {
   box-sizing: border-box;
