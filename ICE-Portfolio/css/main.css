@@ -205,9 +205,11 @@ li {
   padding-right: 1.5rem;
 }
 
-ul {
+
+ul.social.hide {
   list-style: none;
-  display: flex;
+  /* display: flex; */
+  display: none;
 }
 
 .main-section {
@@ -248,9 +250,9 @@ iframe
   height: 30%;
 }
 
-.hide {
+/* .hide {
   display: none;
-}
+} */
 
 span.email:hover {
   display: block;
@@ -287,7 +289,7 @@ ul, menu, user agent stylesheet dir {
 dl, ol, ul {
   margin-top: 0;
 }
-}
+
 .navbar-expand-lg .navbar-nav .nav-link {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -295,7 +297,7 @@ dl, ol, ul {
   -webkit-box-pack: start;
   justify-content: flex-start;
 }
-  }
+
 
 .navbar {
   display: flex;
