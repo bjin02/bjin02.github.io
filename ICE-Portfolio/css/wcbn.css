@@ -54,7 +54,7 @@
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show >.nav-link {
-  color: #465450;
+  color: white;
   font-weight: bold;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
-  color: #464646 !important
+  color: white !important
 }
 
 
@@ -111,7 +111,7 @@ p {
 .wcbn-container {
    width: 50%;
    position: relative;
-   padding-top: 40vh;
+   padding-top: 55vh;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -172,12 +172,12 @@ a.social-icon {
 }
 
 
-/* About */
-
-.main-section {
-  margin-top: 60px;
+@media only screen and (max-width: 990px) {
+  .navbar-collapse {
+    background-color: #F4F2F1;
+    opacity: .8;
+  }
 }
-
 
 /* min-width:992px */
 

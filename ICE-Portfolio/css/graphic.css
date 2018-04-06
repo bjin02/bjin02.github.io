@@ -13,10 +13,11 @@
 .navbar-light .navbar-nav .nav-link {
   text-decoration: none;
   margin: 10px;
-  color: #464646;
+  color: #222F34;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
+
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show >.nav-link {
   color: #465450;
@@ -30,7 +31,15 @@
 a.nav-link:hover {
   color: #1BAB87;
 }
+/* .navbar-collapse {
+  background: #F4F2F1;
+} */
 
+
+/* ul.navbar-nav.ml-auto {
+  background: #F4F2F1;
+  opacity: .8;
+} */
 
 h2, h3 {
   font-family: 'Montserrat', sans-serif;
@@ -110,6 +119,14 @@ a.social-icon {
   max-width: 1200px;
   padding-right: 3%;
   padding-left: 3%;
+}
+
+
+@media only screen and (max-width: 990px) {
+  .navbar-collapse {
+    background-color: #F4F2F1;
+    opacity: .8;
+  }
 }
 
 
