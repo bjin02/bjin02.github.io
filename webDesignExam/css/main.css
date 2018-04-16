@@ -1,0 +1,36 @@
+.row {
+  overflow: table;;
+}
+
+
+
+#this {
+  padding:5%;
+  float:none;
+  display: table-cell;
+  vertical-align: top;
+  border: 5px solid blue;
+}
+
+
+#center {
+    overflow: hidden;
+    margin-left: auto;
+  	margin-right: auto;
+   align: center;
+    width:auto;
+    border: 5px solid blue;
+    /* padding:5%; */
+    display: table-cell;
+}
+
+
+.exam {
+  margin: 0 auto;
+
+}
+
+.exam2{
+
+   margin: 0 auto;
+}
